@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Netclicks</title>
+
+    <!-- <script defer src="./script.js"></script> -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="Netclicks" />
+          </div>
+          <div class="header__actions">
+            <a href="" class="header__link">Вход и регистрация</a>
+          </div>
+
+          <button class="header__actions_mobile">
+            <img src="./images/burger.svg" alt="burger" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="search">
+        <div class="container">
+          <div class="search__box">
+            <input type="text" class="search__input" placeholder="Что хотите посмотреть?" />
+            <button class="btn btn__coral">
+              <img src="./images/search-icon.svg" alt="search" class="search__icon" />
+              <span class="search__btn-text">Найти</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="container">
+          <div class="content__box">
+            <div class="content__main">
+              <div class="content-product">
+                <img class="content-product__image" src="./images/film-large.jpg" alt="" />
+
+                <div class="content-product__info">
+                  <div class="content-product__info-box">
+                    <div class="content-product__title">
+                      <h2>Марсианин,</h2>
+                      <span>The Martian 2015</span>
+                    </div>
+                    <span class="content-product__genre">Фантастика, приключения</span>
+                    <span class="content-product__rating">7.8</span>
+
+                    <p class="content-product__description">
+                      Марсианская миссия «Арес-3» в процессе работы была вынуждена экстренно покинуть планету из-за
+                      надвигающейся песчаной бури. Инженер и биолог Марк Уотни получил повреждение скафандра во время
+                      песчаной бури. Сотрудники миссии, посчитав его погибшим, эвакуировались с планеты, оставив Марка
+                      одного.
+                      <br />
+                      <br />
+                      Очнувшись, Уотни обнаруживает, что связь с Землёй отсутствует, но при этом полностью функционирует
+                      жилой модуль. Главный герой начинает искать способ продержаться на имеющихся запасах еды,
+                      витаминов, воды и воздуха ещё 4 года до прилёта следующей миссии «Арес-4».
+                    </p>
+                  </div>
+                  <button class="btn btn__coral">Смотреть</button>
+                </div>
+              </div>
+            </div>
+
+            <aside class="content__sidebar">
+              <div class="content__sidebar-box">
+                <h3 class="content__sidebar-title">Подборки фильмов и сериалов</h3>
+
+                <div class="content__sidebar-item">
+                  <h4 class="sidebar-item__title">Топ-250</h4>
+                  <p class="sidebar-item__info">Подборка фильмов и сериалов с наивысшими оценками зрителей</p>
+                </div>
+
+                <div class="content__sidebar-item">
+                  <h4 class="sidebar-item__title">Посмеяться от души</h4>
+                  <p class="sidebar-item__info">Подборка комедий, которые помогут расслабиться после работы</p>
+                </div>
+
+                <div class="content__sidebar-item">
+                  <h4 class="sidebar-item__title">Запутанный сюжет</h4>
+                  <p class="sidebar-item__info">
+                    Триллеры и прключения с запутанным и интересным сюжетом. Невозможно оторваться!
+                  </p>
+                </div>
+              </div>
+
+              <footer class="footer">
+                <div class="footer-content">
+                  <p>© ООО «Неткликс», 2024</p>
+                  <a href="">Политика конфиденциальности</a>
+                  <a href="">Обработка персональных данных</a>
+                </div>
+              </footer>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
